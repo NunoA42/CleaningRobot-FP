@@ -600,7 +600,7 @@ def Imp3File(click,file):
 #Nesta as coordenadas dos obstáculos eram retiradas dum ficheiro 
     
     #Abre o ficheiro sala.txt e cria uma lista com as diferentes coordenadas e valores
-    arquivo1 = open("Sala.txt", "r")
+    arquivo1 = open("main/Sala.txt", "r")
     posiçoes = arquivo1.readlines()
     arquivo1.close()
 
@@ -662,7 +662,7 @@ def Imp3File(click,file):
     waiter.battery(charge) #define a bateria atual do robo
     
     #abre o ficheiro limpeza.txt e  guarda as coordenadas para uma lista chamda de localização
-    arquivo2 = open("Limpeza.txt", "r")
+    arquivo2 = open("main/Limpeza.txt", "r")
     localizaçao = arquivo2.readlines()
     arquivo2.close()
     sujidades = []

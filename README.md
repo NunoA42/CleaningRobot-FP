@@ -125,6 +125,10 @@ python3 ProgramaPrincipal.py
 
 O robô move-se diretamente até ao ponto clicado pelo utilizador, desvia-se de **uma mesa central** e, após limpar, regressa à dock mais próxima.
 
+<p align="center">
+  <img src="Screenshots/imp1.png" width="500" alt="1ª Implementação"/>
+</p>
+
 **Como usar:**
 1. Clicar num ponto válido da sala (fora da mesa e das bordas)
 2. O robô dirige-se ao ponto, executa o movimento de limpeza e regressa à dock
@@ -136,6 +140,10 @@ O robô move-se diretamente até ao ponto clicado pelo utilizador, desvia-se de 
 ### 2ª Implementação — Varrimento Sistemático com Bateria
 
 O robô varre **toda a sala em serpentina** (esquerda-direita, subindo faixas), com **5 obstáculos** fixos (mesa, planta, aquário, cadeira×2) e **gestão de bateria**.
+
+<p align="center">
+  <img src="Screenshots/Imp2.png" width="500" alt="2ª Implementação"/>
+</p>
 
 **Como usar:**
 1. Clicar nos pontos de sujidade pretendidos (podem ser vários)
@@ -150,6 +158,10 @@ O robô varre **toda a sala em serpentina** (esquerda-direita, subindo faixas), 
 
 Os **obstáculos são lidos do ficheiro `Sala.txt`** e as sujidades podem ser introduzidas por clique do rato ou lidas do ficheiro `Limpeza.txt`. A janela é menor (750×750, coordenadas 0-100).
 
+<p align="center">
+  <img src="Screenshots/Imp3.png" width="400" alt="3ª Implementação"/>
+</p>
+
 **Ao selecionar esta opção, abre um submenu com dois modos:**
 
 | Modo | Descrição |
@@ -162,6 +174,8 @@ Os **obstáculos são lidos do ficheiro `Sala.txt`** e as sujidades podem ser in
 ### 3ª Implementação — Geração Aleatória
 
 Funciona como a 2ª implementação, mas os **5 obstáculos são gerados em posições aleatórias** a cada execução. Inclui um botão **Refresh** para regenerar os obstáculos (apenas quando não há sujidades definidas).
+
+> A disposição dos obstáculos muda a cada execução — a screenshot acima (Imp3) é um exemplo possível.
 
 **Como usar:**
 1. (Opcional) Clicar em **Refresh** para gerar novos obstáculos
