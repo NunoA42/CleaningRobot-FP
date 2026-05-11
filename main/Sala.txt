@@ -1,0 +1,16 @@
+Tamanho da janela de simulacao sugerida: 
+750 750
+
+Localizacao dos objectos:
+Docks
+Point(5,5) 
+Point(95,95)
+Table:Point(70,25)
+Chair2:Point(75,65)
+Chair1:Point(20,20)
+Table2:Point(20,75)
+Plant:Point(50,55)
+
+
+
+
